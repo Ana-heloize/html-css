@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo fixo de tela</title>
     <style>
         body {
-            background-color: black;
-            background-image: url("imagens/wallpaper002.jpg");
-            background-repeat: no-repeat;
+            height: 100vh;
+           
+
+            /*Shorthand-background
+            color > image > position > repeat > {size} > attachment
+            */
+
+            background: black url("imagens/wallpaper002.jpg") center center no-repeat fixed;
             background-size: cover;
+            
         }
         main {
             background-color: white;
@@ -24,7 +30,10 @@
 <body>
     <main>
         <h1>Teste de imagem de Fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore architecto voluptas est voluptates maiores eaque, inventore, repellendus temporibus at nesciunt ducimus, non repellat mollitia eligendi quos nemo nostrum reiciendis veniam.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore architecto voluptas est voluptates maiores eaque, inventore, repellendus temporibus at nesciunt ducimus, non repellat mollitia eligendi quos nemo nostrum reiciendis veniam.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus veniam voluptas voluptatibus necessitatibus, doloremque qui at quae. Optio vel, necessitatibus ullam praesentium reprehenderit sint, dolorem ex vitae, corrupti expedita possimus?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur id consequuntur corporis nostrum ex architecto eos optio dolore. Facilis nobis reiciendis quo sint rem accusantium labore qui eum at minima!</p>
     </main>
 </body>
 </html>
