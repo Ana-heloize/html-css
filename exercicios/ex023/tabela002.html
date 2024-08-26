@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        table {
+            width: 500px;
+            border-collapse: collapse;
+            position: relative;
+        }
+
+        td, th {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgba(202, 70, 195, 0.405);
+        }
+        thead, tfoot {
+            background-color: rgba(148, 85, 207, 0.492);
+            color: rgb(0, 0, 0);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgba(148, 85, 207, 0.492);
+        }
+        tbody > tr:nth-child(2n)
+        {
+            background-color: lightgrey;
+        }
+        td.num {
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+       <table>
+            <caption>População das Unidades Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 55px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janero</td>
+                <td class="num">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de Habitantes</th>
+                <td><strong>0</strong></td>
+            </tr>
+        </tfoot>
+       </table>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi et molestiae, nostrum atque sequi natus delendignissimos, ratione, impedit alias perspiciatis, dolor illo expedita Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam totam quam aperiam doloribus ullam eos, sit tenetur nisi eius aliquam, expedita ex fugit ducimus fugiat! Dicta recusandae voluptatum cum culpa.</p>iti adipisci? Necessitatibus nobis magnam labore 
+       
+</body>
+</html>
